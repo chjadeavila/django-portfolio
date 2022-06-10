@@ -7,5 +7,5 @@ A portfolio I made with Django, it's beautiful
 
 <h1>RUNSERVER</h1>
 <br>-python3 manage.py runserver
-<br>then go to <a>http://localhost:8000/</a>
+<br>then go to <a href="http://localhost:8000/">http://localhost:8000/</a>
 
