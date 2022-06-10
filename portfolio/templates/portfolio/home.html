@@ -1,0 +1,35 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="grid__container">
+    
+    <div class="grid__item1"> 
+
+      <div class="main__headings">
+        <h1 class="main__header">Christine Jade Avila</h1>
+        <h3 class="sub__header">-</h3>
+      </div>
+      <p class="description">BS in Computer Engineering, <br>University of Mindanao</p>
+
+      <div class="grid__in__grid">
+        <a href="" target="_blank" class="soc__med__links"><img src="/static/styles/icons/icons8-instagram.svg" alt="cj instagram link"></a>
+        <a href="https://www.facebook.com/chjadeavila" target="_blank" class="soc__med__links"><img src="/static/styles/icons/icons8-facebook.svg" alt="cj facebook link"></a>
+        <a href="https://twitter.com/chjadeavila" target="_blank" class="soc__med__links"><img src="/static/styles/icons/icons8-twitter.svg" alt="cj twitter link"></a>
+        <a href="https://www.linkedin.com/in/christine-jade-avila-0223b61b4/" target="_blank" class="soc__med__links"><img src="/static/styles/icons/icons8-linkedin.svg" alt="cj linkedin link"></a>
+      </div>
+    </div>
+
+    <div class="grid__item2">
+      <a href="{% url 'web-development' %}" class="grid__items item1">DEV WORKS</a>
+      <!-- <div class="grid__items item2"><a>WEB DESIGNS</a></div>
+      <div class="grid__items item3"><a>BLOGS & VLOGS</a></div>
+      <div class="grid__items item4"><a>ABOUT ME</a></div> -->
+    </div>
+
+  </div>
+
+  <div class="call__to__action">
+    <h3 class="footer__main__heading">Let's Work Together!</h3>
+    <a href="" class="email">avilajadechristine05@gmail.com</a>
+  </div>
+{% endblock content %}
