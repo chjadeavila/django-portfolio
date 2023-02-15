@@ -1,4 +1,4 @@
-- download zip file
+- download zip file or clone repository
 - extract
 - download virtual environment
 - activate virtual environment
